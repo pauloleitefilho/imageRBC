@@ -1,0 +1,17 @@
+imbw=Ic;
+[L, n] =bwlabel(~imbw,8);
+%[L, n] =bwlabeln(imbw,26);
+qtd_total=n
+
+
+a=[];
+b1=10;
+b=[b1];
+c1=20;
+c=[c1];
+a=[b c];
+d=3*[a];
+
+a
+b
+c
